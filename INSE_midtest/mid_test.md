@@ -6,23 +6,23 @@
 
 ## 2. Which example illustrates an organization's reponsibility to comply with an individual's right to correct their personal data?
 
-![image](/2.jpg)
+![image](/INSE_midtest/2.jpg)
 
 ## 3. The protection measure used is (are)
 
-![image](/3.jpg)
+![image](/INSE_midtest/3.jpg)
 
 ## 4. What technique is commonly used to ensure data integrity?
 
-![image](/4.jpg)
+![image](/INSE_midtest/4.jpg)
 
 ## 5. What is CSRF in web security?
 
-![image](/5.jpg)
+![image](/INSE_midtest/5.jpg)
 
 ## 6. A hacker gains access to a company's financial records, modifies them, and then deletes the original files. Which security goals are violated?
 
-![image](/6.jpg)
+![image](/INSE_midtest/6.jpg)
 
 - Confidentiality:
 
@@ -40,7 +40,7 @@ Ngoài ra, một giải pháp “data integrity” có thể bao gồm thêm vi�
 
 ## 7. What kind of vulnerability in the following code snippet?
 
-![image](/7.jpg)
+![image](/INSE_midtest/7.jpg)
 
 - In-band SQLi:
 
@@ -53,15 +53,15 @@ Ngoài ra, một giải pháp “data integrity” có thể bao gồm thêm vi�
 
 ## 8. Which of the following Java code snippets is safe against SQL injection?
 
-![image](/8.jpg)
+![image](/INSE_midtest/8.jpg)
 
 ## 9. What is the primary goal of secure coding?
 
-![image](/9.jpg)
+![image](/INSE_midtest/9.jpg)
 
 ## 10. Identify correct type of vulnerability in following code?
 
-![image](/10.jpg)
+![image](/INSE_midtest/10.jpg)
 
 - DOM - Based XSS: chèn document object vào
 - Reflected XSS: chèn script vào
@@ -69,7 +69,7 @@ Ngoài ra, một giải pháp “data integrity” có thể bao gồm thêm vi�
 
 ## 11. What kind of vulnerability the following code snippet does exhibit?
 
-![image](/11.jpg)
+![image](/INSE_midtest/11.jpg)
 
 - SQL inject: k dùng query
 - XSS: k có lệnh script nèo
@@ -77,38 +77,38 @@ Ngoài ra, một giải pháp “data integrity” có thể bao gồm thêm vi�
 
 ## 12. How can continuous monitoring help in mitigating the risks of impersonation?
 
-![image](/12.jpg)
+![image](/INSE_midtest/12.jpg)
 
 ## 13. The protection measure used is (are)
 
-![image](/13.jpg)
+![image](/INSE_midtest/13.jpg)
 
 ## 14. What is the technique behind the -fno-stack-protector gcc option
 
-![image](/14.jpg)
+![image](/INSE_midtest/14.jpg)
 
 ## 15. What kind of vulnerability in the following code snippet?
 
-![image](/15.jpg)
+![image](/INSE_midtest/15.jpg)
 
 
 ## 16. The protection measure used is (are):
-![image](/16.jpg)
+![image](/INSE_midtest/16.jpg)
 
 
 ## 17. Which of the following best describes a Tamper-Proof feature in an operating system? 
 
-![image](/17.jpg)
+![image](/INSE_midtest/17.jpg)
 
 - Operating System with a robust design, as not to allow the execution of malicious code. Access to internal data and procedures are never allowed without the proper authorization. In its more strict implementations, this Operating System will have attack detection mechanisms. If the attack is of a certain level, the Operating System may even delete all its code and/or data.
 
 ## 18. What can lead to increased regulatory scrutiny for organizations that fail to uphold information privacy standards?
 
-![image](/18.jpg)
+![image](/INSE_midtest/18.jpg)
 
 ## 19. John has security clearance as TOP-SECRET in Misc. Affairs Department. What can you state about John's office access control policy?
 
-![image](/19.jpg)
+![image](/INSE_midtest/19.jpg)
 
 - Discretionary Access Control (DAC): người tạo tệp có quyền chỉ định quyền truy cập của riêng họ và có thể chỉ định các tham số chia sẻ với bất kỳ người nhận nào mà họ chỉ định
 - Mandatory access control (MAC):  phổ biến trong chính phủ và các tổ chức được quản lý chặt chẽ. Các chủ thể chỉ có thể truy cập các đối tượng nằm trong hệ thống phân cấp được xác định của chúng
@@ -117,99 +117,99 @@ Ngoài ra, một giải pháp “data integrity” có thể bao gồm thêm vi�
 
 ## 20. What is the primary purpose of multi-factor authentication (MFA)?
 
-![image](/20.jpg)
+![image](/INSE_midtest/20.jpg)
 
 ## 21. What kind of vulnerability in the following code snippet?
 
-![image](/21.jpg)
+![image](/INSE_midtest/21.jpg)
 
 ## 22. Which security goals are violated for the following cases (answer text may be in whichever case)
 
-![image](/22.png)
+![image](/INSE_midtest/22.png)
 
 ## 23. Which of the following is a key principle of defensive programming?
 
-![image](/23.jpg)
+![image](/INSE_midtest/23.jpg)
 
 ## 24. The protection measure used is (are)
 
-![image](/24.jpg)
+![image](/INSE_midtest/24.jpg)
 
 ## 25. What is a secure bootloader in Operating Systems?
 
-![image](/25.jpg)
+![image](/INSE_midtest/25.jpg)
 
 ## 26. What is a common method to prevent SQL injection attacks in secure coding?
 
-![image](/26.jpg)
+![image](/INSE_midtest/26.jpg)
 
 - Prevent SQL injection attacks: Techniques like input validation, restricting database user privileges, and using parameterized queries are essential.
 
 ## 27. Which of the following belong to the rule-based access control
 
-![image](/27.jpg)
+![image](/INSE_midtest/27.jpg)
 
 ## 28. In the context of SQL injection, what type of attack does the following input represent?
 
-![image](/28.jpg)
+![image](/INSE_midtest/28.jpg)
 
 ## 29. What does Correctness in the context of OS security mean?
 
-![image](/29.jpg)
+![image](/INSE_midtest/29.jpg)
 
 ## 30. Which type of damage can result from a data breach or privacy violation for an organization?
 
-![image](/30.jpg)
+![image](/INSE_midtest/30.jpg)
 
 ## 31. A Trusted Computing Base (TCB) involves which of the following features:
 
-![image](31.jpg)
+![image](/INSE_midtest/31.jpg)
 
 ## 32. What does the principle of Complete Mediation ensure in an operating system?
 
-![image](/32.jpg)
+![image](/INSE_midtest/32.jpg)
 
 ## 33. The protection measure used is (are)
 
-![image](/33.jpg)
+![image](/INSE_midtest/33.jpg)
 
 ## 34. What is a primary responsibility of organizations in terms of transparency regarding personal data?
 
-![image](/34.jpg)
+![image](/INSE_midtest/34.jpg)
 
 ## 35. Which of these inputs is an example of a boolean-based blind SQL injection attack?
 
-![image](/35.jpg)
+![image](/INSE_midtest/35.jpg)
 
 ## 36. What is the SameSite attribute in cookies?
 
-![image](/36.jpg)
+![image](/INSE_midtest/36.jpg)
 
 ## 37. Which of the following is a privacy concern specific to social media, similar to a personal diary?
 
-![image](/37.jpg)
+![image](/INSE_midtest/37.jpg)
 
 ## 38. Which of the following security levels are used to classify documents in the Mandatory Access Control system?
 
-![image](/38.jpg)
+![image](/INSE_midtest/38.jpg)
 
 - Users and Data are given a clearance level (confidential, secret, top secret)
 
 ## 39. Which type of vulnerability does expose in following code?
 
-![image](/39.jpg)
+![image](/INSE_midtest/39.jpg)
 
 - htmlentities($_POST['string'], ENT_QUOTES, 'UTF-8') to clean data for any XSS attacks
 - method="GET" to avoid CSRF
 
 ## 40. The protection measure used is (are)
 
-![image](/40.jpg)
+![image](/INSE_midtest/40.jpg)
 
 ## 41. Choose correct layout of stack memory
 
-![image](/41.jpg)
+![image](/INSE_midtest/41.jpg)
 
 ## 42. What is a significant threat posed by impersonation?
 
-![image](42.jpg)
+![image](/INSE_midtest/42.jpg)
