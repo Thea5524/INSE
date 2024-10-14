@@ -2,7 +2,7 @@
 
 ## 1. The protection measure used is (are)
 
-![image](/1.jpg)
+![image](/INSE_midtest/1.jpg)
 
 ## 2. Which example illustrates an organization's reponsibility to comply with an individual's right to correct their personal data?
 
