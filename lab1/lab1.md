@@ -70,7 +70,7 @@ _load_data:
 
 ### 1. Fire up docker-compose to run the docker conteiner `docker run -it --privileged -v $HOME/Seclabs:/home/seed/seclabs img4lab` and then change working directory to the folder have this file
 
-![image](/img/run%20docker.png)
+![image](/run%20docker.png)
 
 ### 2. Compile with nasm and then link with ld to generate executable file
 
