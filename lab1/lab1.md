@@ -74,47 +74,47 @@ _load_data:
 
 ### 2. Compile with nasm and then link with ld to generate executable file
 
-![image](/img/compile.png)
+![image](./img/compile.png)
 
 ### 3. Dump to `test.o` to show information of this file
 
 `objdump -d test.o`
-![image](/img/objdump.png)
+![image](./img/objdump.png)
 
 ### 4. Get the hex string of shellcode
 
 Run the script `for i in $(objdump -d test | grep "^ " | cut -f2);do echo -n '\x'$i; done; echo`
-![image](/img/hex%20string.png)
+![image](./img/hex%20string.png)
 
 ### 5. Prepare for the lab environment
 
 - Turn off OS's address space layout randomization `sudo sysctl -w kernel.randomize_va_space=0`
 - Compile program with options to defeat stack protecting mechanism and code execution on stack `gcc lab1.c -o lab1.out -fno-stack-protector -z execstack -mpreferred-stack-boundary=2`
-![image](/img/prepare.png)
+![image](./img/prepare.png)
 
 ### 6. Stack frame 
 
 
-![image](/img/stack.png)
+![image](./img/stack.png)
 
 > We have the byte of the buffer in this code is smaller than the byte of hex string of shellcode. So I use environment variables to exploit
 
 ### 7. Add shellcode to environment and get env address with C code
 
-![image](/img/env.png)
+![image](./img/env.png)
 
 ### 8. Debug with gdb `gdb -q ./lab1.out`
 
-![image](/img/gdb.png)
+![image](./img/gdb.png)
 
 ### 9. Find the address of env
 
 `find /home/seed/seclabs/buffer-overflow/lab1`
-![image](/img/find.png)
+![image](./img/find.png)
 
 ### 10. Run program in gdb with injecting argument
 
-![image](/img/run.png)
+![image](./img/run.png)
 
 ## Task 2: Attack on the database of Vulnerable App from SQLi lab
 
@@ -124,16 +124,16 @@ Run the script `for i in $(objdump -d test | grep "^ " | cut -f2);do echo -n '\x
 
 ### 1. Change working directory to folder of SQli
 
-![image](/img/sqli.png)
+![image](./img/sqli.png)
 
 ### 2. Fire up the docker-compose to create the docker-container set for this lab
 
-![image](/img/build%20sqli.png)
+![image](./img/build%20sqli.png)
 
 
 
 ### 3. Install sqlmap
-![image](/img/sqlmap.png)
+![image](./img/sqlmap.png)
 
 
 **Question 1**: Use sqlmap to get information about all available databases
